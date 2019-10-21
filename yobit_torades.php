@@ -5,8 +5,8 @@ function yobit($method, $req = array()){
   $api_secret = "xxxxx";
 
 
-$rate   = "?????";
-$amount = "?????";
+$rate   = "?????";   //0.00000380 (BTC)
+$amount = "?????";   //50 (ALIS)
 
 
 $req["method"] = $method;
